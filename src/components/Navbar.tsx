@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <>
       <Flex align="center" p="4">
-        <Heading as = "h2" >Dominic Waverly</Heading>
+        <Heading 
+        as = "h2" 
+        ps="50px">Dominic Waverly</Heading>
         <HStack gap="6" ml="auto" pe="6">
           <a href="https://www.instagram.com/blaiseikb" target="_blank" rel="noopener noreferrer">
           <FaInstagram size={20} />
