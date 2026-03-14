@@ -1,5 +1,12 @@
+import Navbar from "./components/Navbar"
+
 const App =() =>{
-  return <h3>Hello world</h3>
+  return (
+    <>
+    <Navbar></Navbar>
+  
+    </>
+  )
 }
 
 export default App;
